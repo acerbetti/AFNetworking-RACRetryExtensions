@@ -10,6 +10,6 @@ Pod::Spec.new do |s|
   s.osx.deployment_target = '10.9'
   s.source_files = 'RACRetryExtensions/*.{h,m}'
   s.requires_arc = true
-  s.dependency 'AFNetworking', '> 2.x'
-  s.dependency 'ReactiveCocoa', '~> 2.x'
+  s.dependency 'AFNetworking', '> 2.0'
+  s.dependency 'ReactiveCocoa', '~> 2.0'
 end
